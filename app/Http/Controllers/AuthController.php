@@ -8,7 +8,7 @@ class AuthController extends Controller
 
 
 {
-    public static function me (){
+    public function me (){
     return [
         'NIS' => 3103120168,
         'Name' => 'Noval F',
@@ -16,4 +16,4 @@ class AuthController extends Controller
         'Class' => 'XII RPL 5'
     ];
     }
-}
+};
